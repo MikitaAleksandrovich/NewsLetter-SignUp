@@ -1,0 +1,28 @@
+{
+  "name": "newsletter-signup",
+  "version": "1.0.0",
+  "description": "A newsletter service that allows add someone's emails and names to your mail list",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MikitaAleksandrovich/NewsLetter-SignUp.git"
+  },
+  "keywords": [
+    "newsletter",
+    "email"
+  ],
+  "author": "Nikita Aleksandrovich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MikitaAleksandrovich/NewsLetter-SignUp/issues"
+  },
+  "homepage": "https://github.com/MikitaAleksandrovich/NewsLetter-SignUp#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "request": "^2.88.0"
+  }
+}
