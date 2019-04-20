@@ -39,9 +39,9 @@ app.post('/', (req, res) => {
         url: 'https://us20.api.mailchimp.com/3.0/lists/f796ce10e2',
         method: 'POST',
         headers: {
-            'Authorization': 'nikita1 7ddde0eb9f9591a58a22b7034621c857-us20'
+            'Authorization': 'nikita1 8320cc30e8d682a85193391f20e02741-us20'
         },
-        // body: jsonData
+        body: jsonData
     };
 
     request(options, (error, response, body) => {
@@ -63,15 +63,13 @@ app.post('/failure', (req, res) => {
 });
 
 
-
 // API key
-// 7ddde0eb9f9591a58a22b7034621c857-us20
+// 8320cc30e8d682a85193391f20e02741-us20
 
 // List id
 // f796ce10e2
 
 
-
-app.listen(3000, () => {
+app.listen(process.env.PORT || 3000, () => {
     console.log('server is running on port 3000');
 });
