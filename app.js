@@ -39,7 +39,7 @@ app.post('/', (req, res) => {
         url: 'https://us20.api.mailchimp.com/3.0/lists/f796ce10e2',
         method: 'POST',
         headers: {
-            'Authorization': 'nikita1 8320cc30e8d682a85193391f20e02741-us20'
+            'Authorization': 'nikita1 c55d8ac37ddbcf41a54b4addc6460ac4-us20'
         },
         body: jsonData
     };
@@ -64,7 +64,7 @@ app.post('/failure', (req, res) => {
 
 
 // API key
-// 8320cc30e8d682a85193391f20e02741-us20
+// c55d8ac37ddbcf41a54b4addc6460ac4-us20
 
 // List id
 // f796ce10e2
